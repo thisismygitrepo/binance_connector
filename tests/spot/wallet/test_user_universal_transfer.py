@@ -1,9 +1,9 @@
 import responses
 import pytest
 
-from binance.error import ParameterRequiredError, ParameterValueError
-from binance.lib.utils import encoded_string
-from binance.spot import Spot as Client
+from binance_connector.error import ParameterRequiredError, ParameterValueError
+from binance_connector.lib.utils import encoded_string
+from binance_connector.spot import Spot as Client
 from tests.util import mock_http_response
 from tests.util import random_str
 

@@ -1,8 +1,8 @@
 import responses
 
-from binance.spot import Spot as Client
+from binance_connector.spot import Spot as Client
 from tests.util import random_str
-from binance.lib.utils import encoded_string
+from binance_connector.lib.utils import encoded_string
 from tests.util import mock_http_response
 
 

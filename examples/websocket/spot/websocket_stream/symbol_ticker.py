@@ -2,8 +2,8 @@
 
 import time
 import logging
-from binance.lib.utils import config_logging
-from binance.websocket.spot.websocket_stream import SpotWebsocketStreamClient as Client
+from binance_connector.lib.utils import config_logging
+from binance_connector.websocket.spot.websocket_stream import SpotWebsocketStreamClient as Client
 
 config_logging(logging, logging.DEBUG)
 

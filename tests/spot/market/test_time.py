@@ -1,4 +1,4 @@
-from binance.spot import Spot as Client
+from binance_connector.spot import Spot as Client
 import responses
 
 from tests.util import mock_http_response

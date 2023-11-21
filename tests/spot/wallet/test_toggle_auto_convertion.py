@@ -1,10 +1,10 @@
 import responses
 import pytest
-from binance.spot import Spot as Client
+from binance_connector.spot import Spot as Client
 from tests.util import mock_http_response
 from tests.util import random_str
 from urllib.parse import urlencode
-from binance.error import ParameterRequiredError
+from binance_connector.error import ParameterRequiredError
 
 mock_item = {"key_1": "value_1", "key_2": "value_2"}
 key = random_str()

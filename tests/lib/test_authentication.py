@@ -1,4 +1,4 @@
-from binance.lib.authentication import hmac_hashing, rsa_signature, ed25519_signature
+from binance_connector.lib.authentication import hmac_hashing, rsa_signature, ed25519_signature
 import pytest
 
 

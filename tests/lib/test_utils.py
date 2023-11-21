@@ -1,21 +1,21 @@
 import pytest
 
-from binance.error import (
+from binance_connector.error import (
     ParameterRequiredError,
     ParameterTypeError,
     ParameterValueError,
 )
-from binance.lib.utils import (
+from binance_connector.lib.utils import (
     check_required_parameter,
     check_type_parameter,
     convert_list_to_json_array,
     purge_map,
     parse_proxies,
 )
-from binance.lib.utils import check_required_parameters
-from binance.lib.utils import check_enum_parameter
-from binance.lib.utils import encoded_string
-from binance.lib.enums import TransferType
+from binance_connector.lib.utils import check_required_parameters
+from binance_connector.lib.utils import check_enum_parameter
+from binance_connector.lib.utils import encoded_string
+from binance_connector.lib.enums import TransferType
 
 
 def test_pass_check_required_parameter():
